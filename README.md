@@ -164,6 +164,22 @@ craft multiply_lists(list, num): list * num
 craft greet(name): printeth("Hello, " + name)
 ```
 
+### Function Definition
+You can even assign functions to a variable, and that new variable will work the same way as your original function did:
+
+```thylang
+craft function_name(parameter1, parameter2) : expression
+hath new_func = function name # make sure to not use parentheses otherwise you would be calling the function instead of assigning it!
+```
+
+Example:
+```thylang
+craft add_numbers(a, b) : a + b
+hath new_add = add_numbers
+new_add(5, 6) # output -> 11
+```
+
+
 ### Function Calls
 
 ```thylang
