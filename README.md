@@ -265,7 +265,7 @@ hath x = 42  # This is also a comment
 
 ## Error Messages
 
-ThyLang provides error messages in classical English style, while these messages might be cryptic to understand for some users, please remember that this language is built more from a fun perspective rather than a functionality one:
+ThyLang provides error messages in classical English style, while these messages might be cryptic to understand for some users, please remember that this language is built more from a fun perspective rather than a functionality one. Some error messages are listed below:
 
 - **Undefined Variable**: "Verily, no variable of 'name' is inscribed in these sacred scripts."
 - **Division by Zero**: "Thou dared divide by naught."
